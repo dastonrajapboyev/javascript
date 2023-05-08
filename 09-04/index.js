@@ -1,9 +1,16 @@
-// SWITCH STATEMENT
-// if(condition === rain)
+// ##############################
+// if -> <,>, <=, >=, ==, ===
+// SWITCH STATEMENT -> ===
+// ##############################
+// if(condition === rain)  --for example----
 
-let data = "yomg'ir";
-switch (data) {
-  case "rain":
-    console.log("it's raining");
-}
-
+// let data = "rain";
+// switch (data) {
+//   case "rain":
+//     console.log("it's raining");
+//     break;
+//   case "snow":
+//     console.log("it.s snowing");
+//     break;
+//     default: console.log("no data");
+// }

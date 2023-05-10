@@ -1,4 +1,4 @@
-// const telegram = (name,surname ="" )=>{
+const telegram = (name,surname ="/" )=>{
   
 //   // --- 
 //   // if(surname){
@@ -8,5 +8,6 @@
 //   //   }
 //   // ------
 //     console.log(name, surname);
-// }
-// telegram("doston")
+console.log(name, surname);
+}
+telegram("doston")

@@ -66,5 +66,6 @@
 //   0: 1,
 // };
 
+
 // let name = prompt('what is your goal ?');
 // console.log(myInfo["goal"]);

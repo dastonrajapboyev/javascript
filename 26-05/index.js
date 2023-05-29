@@ -53,6 +53,82 @@
 // let ar1 = ["doston", "ruslon", "mubina", "muslima","yasmina","fotima","mustafo"];
 // for (i=0; i < ar1.length; i++) {
 //   console.log(ar1[i]);
-// } // this way to loop is old way
+// } // this way is an old way to loop
+
+//  for of method =============
+
+// let ar1 = ["doston", "ruslon", "mubina", "muslima","yasmina","fotima","mustafo"];
+
+// for(value of ar1){ // "of" to get element of array
+//   console.log(value); // this way is a new way
+// } 
+
+// for(value in ar1){ // "in" to get element of array
+//   console.log(value);
+// }
+
+// ARRAY METHODS =============
+
+//PUSH =================
+// let arr =[1,2,3,4,5]
+// arr.push(6,7,8,9); // push add element to array
+// console.log(arr);
+
+// POP =================
+// let arr =[1,2,3,4,5]
+// arr.pop(); // pop delete last element of array
+// console.log(arr);
+
+// unshift method ========
+
+// let arr =[1,2,3,4,5]
+// arr.unshift(0) // unshift add element begining of array
+// console.log(arr);
+
+// shift method======
+
+// let arr =[1,2,3,4,5]
+// arr.shift() // shift delete element at the begining of array
+// console.log(arr);
+
+// splice method =================
+
+// let arr =[1,2,3,4,5]
+// arr.splice(0) // splice can delete and add element to array
+// arr.splice(0,2) //from where to where
+// arr.splice(0,2, 222) // splice can delete and add element to array first and nd param del. rd param add
+// console.log(arr);
+
+// slice method ==========
+
+// let arr =[1,2,3,4,5]
+// arr.slice(0,2) // slice doesn't change array and only cut data from array
+// console.log(arr);
+
+// indexOf () method ============
+
+// let arr =[1, 4,2,3,4,5]
+// console.log(arr.indexOf(2)); // we can find index of element which we need
+// console.log(arr.indexOf(2,1)); // we can find index of element which we need
+
+// lastindexOf () method ============
 
 
+// let arr =[1, 2,3,5,1]
+// console.log(arr.indexOf(1)); // indexOf search from begining
+// console.log(arr.lastIndexOf(1)); // lastIndexOf search from the end
+
+// join method =========
+
+// let arr =[1, 2,3,5,1]
+// console.log(arr.join("-"));// split add something we need between elements of array and convert array to string
+
+// split method ==========
+
+// let arr ='1, 2,3,5,1'
+// console.log(arr.split()); // split convert string to array 
+
+// reverse method ===========
+
+// let arr =[1, 2,3,5,]
+// console.log(arr.reverse());

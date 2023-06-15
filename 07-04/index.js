@@ -27,3 +27,5 @@
 // console.log(id && face);
 
 // console.log(!(1 !=='0' && true && 'hey'));
+
+let num = 55;
